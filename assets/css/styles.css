@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bloc1 {
+  background-color: black;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.horaire {
+  padding-left: 30px;
+  color: white;
+  text-align: left;
+  height: 10px;
+}
+
+.reseaux {
+  padding-right: 40px;
+  color: white;
+  text-align: right;
+}
+
+.bloc3 {
+
+  height: 20vh !important;
+}
+
+.fa-circle-chevron-left {
+  color: #e45f4e;
+  background-color: white;
+  font-size: 40px;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+
+.fa-circle-chevron-right {
+  color: #e45f4e;
+  background-color: white;
+  font-size: 40px;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+
+.bloc-center {
+  top: 0%;
+}
+
+.bande-de-couleur {
+  background-color: #E45F4E;
+  /* Couleur de fond (remplacez par la couleur de votre choix) */
+  height: 200px;
+  /* Hauteur de la bande */
+
+}
+
+.container4 {
+  margin-bottom: 500px;
+  display: flex;
+  justify-content: center;
+  font-size: 160%;
+  background-color: #E45F4E;
+  color: white;
+}
+button {
+  color: white;
+  background-color: #E45F4E;
+  font-size: 60px important !;
+  padding: 20px 50px;
+  cursor: pointer;
+}
+.item1 {
+  padding: 100px 50px;
+}
+.news1 {
+  background-color: #E45F4E;
+}
+.titreh5 {
+  color: #E45F4E;
+  font: bolder;
+  font-size: 25px;
+}
+
+.subtitleb {
+  color: black;
+  font: bolder;
+  font-size: 45px;
+}
+
+.infos {
+  background-color: #E45F4E;
+  height: 270px;
+}
+
+.infos ul {
+  list-style: none;
+  /*padding: 0;
+  margin: 0;*/
+  justify-content: space-evenly;
+  margin-top: 20px;
+  display: flex;
+}
+
+.infos li {
+  margin-right: 20px;
+  margin-top: 70px;
+}
+
+.my-flaticon {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.card-body {
+  display: flex !important;
+  align-items: center !important;
+  padding-left: 15px;
+  justify-content: space-between;
+}
+
+h6 {
+  width: 100% !important;
+  text-align: center;
+}
+
+
+.infos {
+  background-color: #E45F4E;
+  height: 270px;
+}
+
+.navlink {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: normal;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.navitem1,
+.navitem2,
+.navitem3 {
+  margin-right: 15px;
+  justify-content: space-between;
+
+}
+
+.flat .flaticon-policeman::before {
+  color: #E45F4E;
+  font-size: 70px !important;
+  margin: 0%;
+}
+
+.flat .flaticon-helmet::before {
+  color: #E45F4E;
+  font-size: 70px !important;
+  margin: 0%;
+}
+
+.flat .flaticon-surveillance::before {
+  color: #E45F4E;
+  font-size: 70px !important;
+  margin: 0%;
+}
+
+.about .flaticon-approved::before {
+  color: #E45F4E;
+  font-size: 50px !important;
+  margin: 0%;
+}
+
+.about .flaticon-medal::before {
+  color: #E45F4E;
+  font-size: 50px !important;
+  margin: 0%;
+}
+
+.text-orange {
+  color: #E45F4E !important;
+
+}
+
+.btn-orange,
+.bg-orange {
+  background-color: #E45F4E !important;
+
+}
+
+
+.po {
+  padding: 30px !important;
+  margin-top: 50px !important;
+  height: 30vh !important;
+}
+
+.image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.text-white {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: black;
+}
+
+@media (max-width: 991.98px) {
+
+  .container-fluid.nav-bar,
+  .nav-bar.container-sm,
+  .nav-bar.container-md,
+  .nav-bar.container-lg,
+  .nav-bar.container-xl {
+    position: relative;
+    background: blacz;
+  }
+}
